@@ -1,0 +1,52 @@
+<html>
+<style>
+span.a{
+display:inline;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:blue;
+}
+span.b{
+display:block;
+width:100px;
+height:100px;
+padding:5px;s
+border:1px solid blue;
+background-color:red;
+}
+span.c{
+display:inline-block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+p:hover{
+color:red;
+}
+a:link{color:red;}
+a:visited{color:green;}
+a:active{color:blue;}
+h1::before{content:"->"}
+h1::selection{
+color:yellow;
+background-color:red;
+}
+div p {background-color:yellow;
+padding:20px;}
+p::first-letter{color:red;}
+</style>
+<body>
+<div>
+<p>press<span>university</span></p>
+<p>The <span class="a">summer</span></p>
+<p>The <span class="b">summer</span></p>
+<p>The <span class="c">summer</span></p>
+<a href="https://www.google.com/search?client=ubuntu&channel=fs&q=google&ie=utf-8&oe=utf-8"title="GOOGLE">google</a>
+<h1>iam me</h1>
+</body>
+</html>
+
